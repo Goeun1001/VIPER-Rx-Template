@@ -83,13 +83,7 @@ class BeerListViewController: UIViewController, BeerListViewProtocol {
 import Foundation
 
 class BeerListInteractor: BeerListInteractorProtocol {
-
-    // MARK: Properties
-    private let presenter: BeerListPresenterProtocol
-    
-    init(presenter: BeerListPresenterProtocol) {
-        self.presenter = presenter
-    }
+  
 }
 ```
 

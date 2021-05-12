@@ -9,11 +9,5 @@
 import Foundation
 
 class ___VARIABLE_ModuleName___Interactor: ___VARIABLE_ModuleName___InteractorProtocol {
-
-    // MARK: Properties
-    private let presenter: ___VARIABLE_ModuleName___PresenterProtocol
     
-    init(presenter: ___VARIABLE_ModuleName___PresenterProtocol) {
-        self.presenter = presenter
-    }
 }
